@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://shanu.me" 
+title: Shanu Venkatesan
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,25 +12,16 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: Experience
+          url: experience/
           weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Education
+          url: education/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Shanu Venkatesan's research papers, books, course materials, data, curriculum vitae, and contact information."
+    author: Shanu Venkatesan
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -44,7 +35,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["education","experience"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,50 +45,28 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Shanu Venkatesan
+          subtitle: "I am a Graduate student at NYU (Management of Technology) with strong experience in data analytics, forecasting, and strategy execution. Previously worked as a Market Analyst, where I improved profit margins by 20% and helped drive a 45% revenue increase using SQL, Excel, Tableau, and predictive analysis. Skilled in Python, R, SQL, Tableau, Power BI, and data modeling. Worked on ML projects including an Intrusion Detection System and large-scale data transformation pipelines."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
+            - name: Education
+              url: education/
+            - name: Experience
+              url: experience/
             - name: Archive
               url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: mailto:contact@shanu.me
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/ShanuVenkatesan
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/shanu-venkatesan-analyst/
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +74,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Shanu Venkatesan"
       icon: favicon.ico
       iconHeight: 18
 
